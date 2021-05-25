@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: aqua; */
+}
+
+.container{
+    padding: 50px;
+    margin: auto;
+}
+section{
+    /* background-color: aqua; */
+        background-image: linear-gradient(to bottom right,rgb(21, 99, 124), powderblue);
+}
+#pdf{
+    width: 80%;
+    margin-left: 0;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: lightgrey;
+}
+footer{
+    background-color:#000;
+    color: white;
+}
+.collage{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+.collage img{
+    width: 150px;
+    height: 180px;
+}
+
+#h1{
+    position: absolute;    
+    top:50px;
+}
+#h2{
+    position: absolute;    
+    right:70px;
+    top:50px;
+}
+#h3{
+    position: absolute;  
+    bottom: 50px;  
+    left: 70px;  
+}
+#h4{
+    position: absolute;    
+    right:0;
+    bottom: 50px;    
+}
+.col-sm-6 {
+    padding: 10vh;
+}
+.col-sm-3{
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+.imgbox:hover {
+    /* height: 75%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    transition: width 1s, height 4s;
+}
